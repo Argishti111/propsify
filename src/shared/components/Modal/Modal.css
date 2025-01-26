@@ -1,0 +1,10 @@
+.dialog-title-content {
+  border-bottom: 1px solid #ddd5be;
+  padding: 13.5px;
+}
+
+.modal-form {
+  all: inherit;
+  margin: 0;
+  padding: 0;
+}

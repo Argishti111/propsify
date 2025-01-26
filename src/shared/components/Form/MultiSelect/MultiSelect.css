@@ -1,0 +1,11 @@
+.multi-select-input-label {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  color: #beb082;
+  background-color: white;
+}
+
+.multi-select-input-label[data-shrink="false"] {
+  top: -5px;
+}

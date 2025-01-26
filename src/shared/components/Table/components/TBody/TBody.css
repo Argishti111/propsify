@@ -1,0 +1,28 @@
+.tbody tr {
+  padding: 12px 0;
+}
+.tbody td {
+  font-family: Lora;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.tbody {
+  height: 100%;
+}
+.tbody > :nth-child(2n) {
+  background-color: #fcf9f7;
+}
+
+.tbody-2n > :nth-child(2n) {
+  background-color: #fcf9f7;
+}
+
+#primaryBody::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  width: 0px !important;
+}

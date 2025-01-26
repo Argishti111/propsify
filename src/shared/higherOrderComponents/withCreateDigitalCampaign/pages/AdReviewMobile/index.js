@@ -1,0 +1,1 @@
+export { AdReviewMobile } from "./AdReviewMobile";

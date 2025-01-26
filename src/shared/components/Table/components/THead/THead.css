@@ -1,0 +1,16 @@
+.thead {
+  background-color: #ecd9cc4d;
+  padding: 16px 0;
+  top: 0;
+}
+
+.thead th {
+  font-size: 13px;
+  font-family: Lora;
+  font-weight: 500;
+  align-items: center;
+}
+
+.thead th > span {
+  margin-left: -2.5px;
+}

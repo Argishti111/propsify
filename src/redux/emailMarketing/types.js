@@ -1,0 +1,11 @@
+export const CHANGE_EMAIL_CAMPAIGN_FIELD = Symbol();
+export const SET_INITIAL = Symbol();
+export const SET_MODAL_LOADING = Symbol();
+export const SET_CAMPAIGN = Symbol();
+export const SET_FILTER = Symbol();
+export const FETCH_CAMPAIGN_COUNT = Symbol();
+export const SET_RECIPIENTS_DATA = Symbol();
+export const DELETE_RECIPIENTS = Symbol();
+export const SET_TEMPLATE = Symbol();
+export const SET_EMAIL_ADDRESS_MANAGER_OPEN = Symbol();
+export const SET_TEMPLATE_MANAGER_OPEN = Symbol();

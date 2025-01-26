@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+  .hovered-on-mobile {
+    background-color: #f5ece5;
+  }
+  .hovered-on-mobile:hover {
+    background-color: #faf6f2 !important;
+  }
+}

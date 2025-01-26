@@ -1,0 +1,1 @@
+export { MailCampaignConfig } from "./MailCampaignConfig";

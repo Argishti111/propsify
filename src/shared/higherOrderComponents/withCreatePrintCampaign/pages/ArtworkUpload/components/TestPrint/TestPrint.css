@@ -1,0 +1,10 @@
+.test-print-address {
+  height: 300px;
+  transition: all 500ms;
+  opacity: 1;
+}
+
+.test-print-address-hidden {
+  height: 0px;
+  opacity: 0;
+}

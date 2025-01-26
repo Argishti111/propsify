@@ -1,0 +1,56 @@
+.email-marketing {
+  width: calc(80% - 32px);
+  margin: 0 12px;
+  opacity: 1;
+}
+.email-marketing .campaign-list {
+  height: 100% !important;
+  max-height: calc(100vh - 264px);
+}
+@media screen and (max-width: 1316px) {
+  .email-marketing .campaign-list {
+    max-height: calc(100vh - 264px);
+  }
+  .email-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 400px);
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .email-marketing .campaign-list {
+    max-height: calc(100vh - 272px);
+  }
+  .email-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 430px);
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .email-marketing .campaign-list > div {
+    max-height: calc(100vh - 298px);
+  }
+  .email-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 398px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .email-marketing .campaign-list {
+    max-height: calc(100vh - 306px);
+  }
+  .email-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 458px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .email-marketing .campaign-list {
+    max-height: calc(100vh - 322px);
+  }
+  .email-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 425px);
+  }
+}
+
+.email-marketing .campaign-list > div {
+}

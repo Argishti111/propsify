@@ -1,0 +1,11 @@
+.img-responsive {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.img-raw {
+}
+
+.tox-tinymce {
+  border-radius: 0px !important;
+}

@@ -1,0 +1,12 @@
+.filter-button {
+  background-color: #192231;
+  color: #ecd9cc;
+  padding: 0 20px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #585a60;
+}

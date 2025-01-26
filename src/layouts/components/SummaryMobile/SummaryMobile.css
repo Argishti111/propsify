@@ -1,0 +1,42 @@
+.summary-mobile {
+  background-color: #fefaf6;
+  overflow-x: hidden;
+  transition: width 300ms, opacity 300ms, height 300ms;
+  overflow-y: auto;
+  padding-top: 48px;
+  width: calc(100% - 92px);
+  padding-bottom: 48px;
+  position: absolute;
+  z-index: 2;
+  overflow-y: scroll;
+  height: calc(100vh - 356px);
+  display: none;
+}
+
+.summary-header-mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fefaf6;
+  padding: 16px;
+  margin-top: -20px;
+}
+@media screen and (max-width: 900px) {
+  .summary-mobile {
+    padding-right: 7px;
+    display: block;
+    opacity: 1;
+  }
+  .summary-header-mobile {
+    display: flex;
+  }
+  .summary-mobile.summary-closed {
+    /* display: none; */
+    height: 0;
+    opacity: 0;
+  }
+  .summary-closed {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

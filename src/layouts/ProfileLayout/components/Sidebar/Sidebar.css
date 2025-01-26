@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px) {
+  .nav-item-dark > div > span {
+    display: none;
+  }
+  .nav-item-dark {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item-dark .nav-icon {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav-item-dark {
+    margin: 4px;
+  }
+  .profile-sidebar-container {
+    padding-right: 8px !important;
+  }
+}

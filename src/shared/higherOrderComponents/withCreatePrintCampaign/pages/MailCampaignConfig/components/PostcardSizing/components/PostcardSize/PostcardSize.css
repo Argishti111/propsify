@@ -1,0 +1,8 @@
+.postcard-sm-info {
+  display: none;
+}
+@media screen and (max-width: 899px) {
+  .postcard-sm-info {
+    display: block;
+  }
+}

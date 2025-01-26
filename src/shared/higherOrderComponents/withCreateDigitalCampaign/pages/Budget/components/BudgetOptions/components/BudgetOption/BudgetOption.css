@@ -1,0 +1,24 @@
+.budget-option {
+  border: 1px solid #beb08266;
+  border-radius: 1px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.active.budget-option {
+  border: 1px solid #beb082;
+}
+
+.check {
+  visibility: hidden;
+}
+
+.active .check {
+  visibility: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .budget-option {
+    padding: 8px;
+  }
+}

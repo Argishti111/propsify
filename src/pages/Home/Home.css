@@ -1,0 +1,43 @@
+.home {
+  width: 80%;
+  margin: 0 12px;
+  opacity: 1;
+}
+
+.steps-item-container {
+  background-color: #fefaf6;
+}
+@media screen and (max-width: 400px) {
+  .home {
+    width: 78% !important;
+    margin: 0 6px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home-image {
+    height: 188px !important;
+  }
+  .step-item-text > span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse !important;
+  }
+  .step-item-text > span > p {
+    margin-left: 0 !important;
+  }
+
+  .step-item-text ~ div {
+    position: static;
+    margin-top: 16px;
+    transform: none;
+  }
+  .steps-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 16px !important;
+  }
+  .steps-item-container button {
+    margin-right: 30px;
+  }
+}

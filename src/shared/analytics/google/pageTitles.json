@@ -1,0 +1,29 @@
+{
+  "connectAdAccount": "/virtual/lead-generation/digital-marketing/connect-ad-account",
+  "chooseAdAccount": "/virtual/lead-generation/digital-marketing/choose-ad-account",
+  "setupGoogleAdsAccount": "/virtual/lead-generation/digital-marketing/setup-google-ads-account",
+  "deleteDraft": "/virtual/lead-generation/digital-marketing/draft/delete-draft",
+  "giveUsYourBusinessName": "/virtual/new-digital-campaign/give-us-your-business-name",
+  "adClickLocation": "/virtual/new-digital-campaign/tell-us-where-people-go-after-they-click-your-ad",
+  "afterClick": "/virtual/new-digital-campaign/people-come-here-after-they-click-your-ad",
+  "writeAd": "/virtual/new-digital-campaign/now-its-time-to-write-your-ad",
+  "keywordThemes": "/virtual/new-digital-campaign/add-keyword-themes-to-match-your-ad-to-searches",
+  "adPlaces": "/virtual/new-digital-campaign/up-next-show-your-ad-in-the-right-places",
+  "setBudget": "/virtual/new-digital-campaign/set-a-budget-to-get-the-results-you-want",
+  "digitalCampaignReview": "/virtual/new-digital-campaign/review-your-campaign-to-be-sure-its-right",
+  "exitCampaignCreation": "/virtual/new-digital-campaign/exit-digital-campaign-creation",
+
+  "uploadEmailList": "/virtual/new-email-campaign/upload-your-email-list",
+  "setUpCampagin": "/virtual/new-email-campaign/setup-up-your-campaign",
+  "chooseTemplate": "/virtual/new-email-campaign/choose-a-template",
+  "personalizeCampaign": "/virtual/new-email-campaign/personalize-your-campaign",
+  "reviewAndConfirm": "/virtual/new-email-campaign/review-and-confirm",
+  "templateSettings": "/virtual/template-settings",
+  "sendersEmailAddress": "/virtual/senders-email-address",
+  "editTemplate": "/virtual/edit-the-template",
+
+  "uploadCustomerList": "/virtual/new-print-campaign/upload-your-customer-list",
+  "configureEmailCampaign": "/virtual/new-print-campaign/configure-your-mail-campaign",
+  "uploadArtworkAndSchedule": "/virtual/new-print-campaign/upload-your-artwork-and-schedule-campaign",
+  "reviewCampaign": "/virtual/new-print-campaign/review-your-campaign-to-be-sure-its-right"
+}

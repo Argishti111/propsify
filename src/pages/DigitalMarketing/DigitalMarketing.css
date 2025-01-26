@@ -1,0 +1,52 @@
+.digital-marketing {
+  width: 77.5%;
+  margin: 0 12px;
+  opacity: 1;
+}
+
+.digital-marketing .table {
+  height: auto;
+}
+.sub-navbar {
+  width: calc(100vw - 90px);
+}
+@media screen and (min-width: 1200px) {
+  .sub-navbar {
+    width: auto;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .digital-marketing .campaign-list > div {
+    max-height: calc(100vh - 246px);
+  }
+  .digital-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 306px);
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .digital-marketing .campaign-list {
+    max-height: calc(100vh - 290px);
+  }
+  .digital-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 366px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .digital-marketing .campaign-list {
+    max-height: calc(100vh - 314px);
+  }
+  .digital-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 386px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .digital-marketing .campaign-list {
+    max-height: calc(100vh - 308px);
+  }
+  .digital-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 376px);
+  }
+}

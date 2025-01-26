@@ -1,0 +1,65 @@
+.profile-top-nav {
+  background-color: #192231;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 64px;
+  padding-left: 64px;
+  position: relative;
+  top: 0;
+  opacity: 1;
+  animation: appearFromTop 300ms ease-in;
+}
+
+.profile-top-nav-back {
+  animation: disappearToTop 300ms ease-in;
+}
+
+.profile-top-nav-back ~ * {
+  transition: opacity 300ms;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1535px) {
+  .profile-top-nav {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .profile-top-nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .profile-top-nav {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@keyframes appearFromTop {
+  from {
+    opacity: 0.7;
+    top: -10vh;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes disappearToTop {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0.7;
+    top: -10vh;
+  }
+}

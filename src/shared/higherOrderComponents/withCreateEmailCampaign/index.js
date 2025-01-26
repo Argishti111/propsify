@@ -1,0 +1,1 @@
+export { withCreateEmailCampaign } from "./withCreateEmailCampaign";

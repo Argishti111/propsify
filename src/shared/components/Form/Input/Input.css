@@ -1,0 +1,11 @@
+.MuiOutlinedInput-notchedOutline {
+  border-color: #beb08299 !important;
+}
+.Mui-disabled .MuiOutlinedInput-notchedOutline {
+  border-color: #afafaf !important;
+  border-style: dashed;
+}
+
+.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #d32f2f !important;
+}

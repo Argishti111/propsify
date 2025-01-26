@@ -1,0 +1,29 @@
+.campaign-cost-card {
+  background-color: #fefaf6;
+  padding: 16px;
+  margin: 0 2px;
+  height: 100%;
+}
+.camapaign-total-input {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  width: 50%;
+  text-align: center;
+  font-family: Lora;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #192231;
+}
+.camapaign-total-input::-webkit-inner-spin-button {
+  display: none;
+}
+
+@media screen and (max-width: 899px) {
+  .campaign-cost-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+  }
+}

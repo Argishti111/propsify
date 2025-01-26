@@ -1,0 +1,1 @@
+export { PropertyValueDataSmall } from "./PropertyValueDataSmall";

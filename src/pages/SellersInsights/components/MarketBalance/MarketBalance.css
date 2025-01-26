@@ -1,0 +1,56 @@
+.with-circle::after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -22px;
+  right: 0;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: 8px solid white;
+  background: inherit;
+}
+@media screen and (max-width: 900px) {
+  .market-balance-line ~ .card-subtitle > span {
+    display: none;
+  }
+
+  .with-circle::after {
+    content: "";
+    top: -18px;
+    height: 28px;
+    width: 28px;
+  }
+}
+
+.market-balance {
+  padding-right: 50px;
+  padding-bottom: 30px;
+  position: relative;
+  white-space: nowrap;
+}
+.market-balance-container {
+  margin: 0 40px;
+}
+
+.market-balance-line {
+  height: 8px;
+  position: relative;
+  margin-right: 8px;
+}
+.market-balance > h6 {
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .market-balance-container {
+    margin: 16px -2px 0 6px;
+  }
+  .market-balance > h6 {
+    margin: 2px 4px 4px 4px;
+  }
+  .market-balance {
+    padding-right: 0;
+  }
+}

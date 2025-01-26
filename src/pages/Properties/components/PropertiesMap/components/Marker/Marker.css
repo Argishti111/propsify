@@ -1,0 +1,150 @@
+.map-marker {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 4px #00000066;
+  border-radius: 50px;
+  opacity: 1;
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 4px;
+  cursor: pointer;
+  /* width: 20px; */
+}
+
+.map-marker-point {
+  background-color: #2aa45f;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.map-marker:hover .map-marker-point {
+  background-color: #ecccb7;
+}
+.map-marker-container:hover {
+  position: relative;
+  z-index: 2;
+}
+.map-marker:hover ~ .map-marker-data-container {
+  height: auto;
+  visibility: visible;
+  position: relative;
+  z-index: 2;
+}
+.map-marker-container {
+  position: relative;
+  left: -24px;
+  cursor: pointer;
+}
+
+.map-marker-data-container {
+  display: inline-flex;
+  visibility: hidden;
+  height: 0;
+  flex-direction: column;
+}
+.map-marker-data {
+  padding: 16px;
+  border-radius: 1px;
+  width: 100px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px #00000066;
+}
+
+.clustered-map-marker {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 4px #00000066;
+  border-radius: 50px;
+  opacity: 1;
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 4px;
+  cursor: pointer;
+  margin-left: 16px;
+  /* width: 20px; */
+}
+
+.clustered-map-marker-point {
+  background-color: #2aa45f;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.clustered-map-marker:hover .clustered-map-marker-point {
+  background-color: #ecccb7;
+}
+
+.clustered-map-marker-container:hover {
+  position: relative;
+  z-index: 100;
+}
+
+.clustered-map-marker:hover ~ .clustered-map-marker-data-container {
+  /* height: auto; */
+  visibility: visible;
+  display: inline-flex;
+  /* position: relative; */
+  z-index: 20;
+}
+
+.clustered-map-marker-container {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  width: 156px;
+  height: 120px;
+}
+
+.clustered-map-marker-data-container {
+  display: none;
+  position: absolute;
+  visibility: hidden;
+  bottom: 0;
+  height: 100px;
+  flex-direction: column;
+  padding-top: 4px;
+}
+.clustered-map-marker-data {
+  padding: 16px;
+  border-radius: 1px;
+  width: 100px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px #00000066;
+}
+
+/*  Google info window styles */
+
+.gm-style .gm-style-iw-tc {
+  display: none !important;
+}
+
+.gm-ui-hover-effect {
+  display: none !important;
+}
+
+.gm-style-iw-d {
+  max-height: none !important;
+  overflow: unset !important;
+}
+
+.gm-style .gm-style-iw-c {
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.gm-style .gm-style-iw-t {
+  bottom: -108px !important;
+  left: 30px;
+}
+
+.gm-style-iw-d div:hover {
+  z-index: 2 !important;
+}

@@ -1,0 +1,19 @@
+.height-52-50 {
+  height: 52px;
+}
+
+@media screen and (max-width: 600px) {
+  .height-52-50 {
+    height: 50px;
+  }
+}
+
+.height-51-50 {
+  height: 51px;
+}
+
+@media screen and (max-width: 600px) {
+  .height-51-50 {
+    height: 50px;
+  }
+}

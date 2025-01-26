@@ -1,0 +1,104 @@
+.under-development {
+  z-index: 1;
+}
+.under-development::before {
+  content: "";
+  position: absolute;
+  top: -180%;
+  left: -26%;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    rgba(254, 252, 249, 0.7),
+    rgb(254 252 249),
+    rgba(254, 252, 249, 0.7)
+  );
+  height: 160px;
+  width: 236px;
+  max-width: 240px;
+}
+.city-card-grade {
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, transparent, #beb08266, transparent) 1;
+  justify-content: space-around;
+  border-right-width: 0;
+  border-left-width: 0;
+
+  padding-bottom: 24px;
+  position: relative;
+  margin-top: 60px;
+}
+
+/* TODO: Remove this */
+.score-under-development .city-card-grade {
+  border-top-width: 0;
+}
+
+.score-under-development .summary-market-title {
+  background: linear-gradient(to bottom, #dfdedc, #cdcdcd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*  */
+.city-card {
+  height: 360px;
+  transition: height 300ms, top 300ms;
+  top: 0;
+}
+
+.city-card:hover {
+  top: -8px;
+  background-color: #fefaf6;
+  height: 460px;
+}
+
+.city-card-hidden {
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.city-card:hover .city-card-hidden {
+  opacity: 1;
+}
+
+.city-card:hover .city-card-hidden button {
+  pointer-events: all;
+}
+
+@media screen and (max-width: 900px) {
+  .city-card {
+    top: -8px !important;
+    background-color: #fefaf6;
+    max-width: none;
+    height: 460px !important;
+  }
+  .city-card .city-card-hidden {
+    opacity: 1;
+  }
+
+  .city-card .city-card-hidden button {
+    pointer-events: all;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .city-card .city-card-hidden {
+    opacity: 1;
+  }
+  .city-card {
+    top: -8px !important;
+    background-color: #fefaf6;
+    width: 100% !important;
+    max-width: none;
+    height: 460px !important;
+  }
+}

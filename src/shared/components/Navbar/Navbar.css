@@ -1,0 +1,45 @@
+.pd-nav-item {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 16px;
+  padding-left: 9px;
+  padding-right: 13px;
+  margin-right: 8px;
+}
+
+.pd-nav-item.active {
+  border-bottom: 2px solid #beb082;
+}
+.pd-nav-item p {
+  color: #afafaf;
+  white-space: nowrap;
+}
+.pd-nav-item.active p {
+  color: #192231;
+}
+.pd-nav {
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  overflow-x: auto;
+  border-bottom: 1px solid #afafaf1a;
+}
+
+.pd-nav::-webkit-scrollbar-thumb {
+  background: transparent;
+  height: 1px !important;
+}
+
+.pd-nav:hover::-webkit-scrollbar-thumb {
+  background: #dedede;
+}
+
+.pd-nav::-webkit-scrollbar {
+  height: 0px !important;
+}
+.pd-nav:hover::-webkit-scrollbar {
+  height: 4px !important;
+}
+
+.pd-nav:hover::-webkit-scrollbar-thumb:hover {
+  background: #9c9c9c;
+}

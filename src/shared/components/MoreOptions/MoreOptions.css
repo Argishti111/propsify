@@ -1,0 +1,84 @@
+.more {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.more-options {
+  display: flex;
+  position: fixed !important;
+  flex-direction: column;
+  position: absolute;
+  z-index: 4;
+  box-shadow: 0px 6px 8px #00000066;
+}
+.more-options-bottom {
+  top: 100%;
+  right: -10%;
+}
+@media screen and (max-width: 600px) {
+  .more {
+    position: relative;
+    display: inline-block;
+  }
+  .more-options {
+    top: 30px;
+    left: 0px;
+    z-index: 4;
+    box-shadow: 0px 6px 8px #00000066 !important;
+  }
+  .mi-more .more-options {
+    top: 0;
+    left: auto;
+    z-index: 4;
+    box-shadow: 0px 6px 8px #00000066 !important;
+  }
+  .more-options-bottom {
+    top: 100%;
+    left: auto;
+    right: -10%;
+  }
+}
+
+.more-options span {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 150px;
+  font-family: Lora;
+  background-color: white;
+  padding: 9px 12px;
+  font-size: 0.938rem;
+  cursor: pointer;
+}
+
+.more-options span:hover {
+  background-color: #f0ece1;
+}
+.more-options span:hover * {
+  background-color: #f0ece1;
+}
+
+.more:hover .more-options {
+  display: flex;
+}
+
+.more-options span.disabled:hover {
+  background-color: transparent;
+}
+
+.more-options span.disabled:hover * {
+  background-color: transparent;
+}
+
+.more-options span.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.more-options span.disabled span {
+  pointer-events: none;
+  cursor: default;
+  color: #afafaf;
+}

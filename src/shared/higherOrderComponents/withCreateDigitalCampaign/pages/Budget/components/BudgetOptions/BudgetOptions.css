@@ -1,0 +1,17 @@
+/* Chrome, Safari, Edge, Opera */
+.budget-input input::-webkit-outer-spin-button,
+.budget-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.budget-input input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.budget-input div::before {
+  content: "$";
+  left: 8px;
+  position: relative;
+}

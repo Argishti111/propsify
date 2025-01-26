@@ -1,0 +1,7 @@
+@media screen and (max-width: 900px) {
+  .mi-more {
+    position: absolute !important;
+    top: 24px !important;
+    right: 16px !important;
+  }
+}

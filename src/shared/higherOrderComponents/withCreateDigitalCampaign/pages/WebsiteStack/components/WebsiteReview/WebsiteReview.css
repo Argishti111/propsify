@@ -1,0 +1,77 @@
+.mobile-frame {
+  border: 14px solid white;
+  box-shadow: 0px 2px 24px rgb(226, 226, 226);
+  border-radius: 28px;
+  height: 460px;
+  left: 22%;
+  top: -5px;
+  width: 260px;
+  position: absolute;
+  z-index: 100000;
+}
+
+.iframe-mobile {
+  position: relative;
+  border: 0;
+  -ms-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  box-shadow: none;
+  overflow: hidden;
+  border-radius: 30px;
+
+  -ms-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+
+.iframe-desktop {
+  border: 0;
+
+  -ms-transform: scale(0.46);
+  -moz-transform: scale(0.46);
+  -o-transform: scale(0.46);
+  -webkit-transform: scale(0.46);
+  transform: scale(0.46);
+
+  -ms-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+
+@media screen and (max-width: 600px) {
+  .iframe-mobile {
+    position: relative;
+    border: 0;
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  .iframe-desktop {
+    -ms-transform: scale(0.25);
+    -moz-transform: scale(0.25);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+  }
+  .mobile-frame {
+    border: 7px solid white;
+    box-shadow: 0px 2px 24px rgb(226, 226, 226);
+    border-radius: 28px;
+    height: 466px;
+    left: 22.5%;
+    top: -12px;
+    width: 252px;
+    position: absolute;
+    z-index: 100000;
+  }
+}

@@ -1,0 +1,1 @@
+export { SelectedPlace } from "./SelectedPlace";

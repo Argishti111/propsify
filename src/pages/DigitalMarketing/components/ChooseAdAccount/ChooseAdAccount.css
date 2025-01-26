@@ -1,0 +1,3 @@
+.ad-accounts > :nth-child(2n) {
+  background-color: transparent !important;
+}

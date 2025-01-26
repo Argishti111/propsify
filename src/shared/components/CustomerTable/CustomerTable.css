@@ -1,0 +1,33 @@
+table.propsify-table > thead th {
+  background-color: #f9f4f0;
+  font-family: Lora;
+  font-weight: 100;
+  padding: 8px 0;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+table.propsify-table > tbody td {
+  font-family: Lora;
+  font-weight: 100;
+  font-size: 13px;
+  padding: 8px 0;
+  padding-left: 8px;
+}
+table.propsify-table > tbody {
+  text-align: left;
+}
+table.propsify-table > thead {
+  text-align: left;
+}
+
+.propsify-table {
+  margin: 0 24px 24px 24px;
+  margin-bottom: 120px;
+  min-width: 750px;
+}
+@media screen and (max-width: 599px) {
+  .propsify-table {
+    margin: 0 8px 8px 8px;
+  }
+}

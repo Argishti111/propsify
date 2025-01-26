@@ -1,0 +1,3 @@
+.senders-email-addresses li:nth-child(2n) {
+  background-color: #ecd9cc4d;
+}

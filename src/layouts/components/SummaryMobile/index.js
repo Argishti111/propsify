@@ -1,0 +1,1 @@
+export { SummaryMobile } from "./SummaryMobile";

@@ -1,0 +1,153 @@
+.card {
+  margin: 0 16px !important;
+  padding: 24px 0 !important;
+  margin-top: 32px !important;
+  padding-top: 24px !important;
+  padding-bottom: 0 !important;
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.card-value {
+  padding-right: 10px !important;
+}
+.card-percent {
+  border-radius: 12px;
+  color: #afafaf;
+  background-color: #afafaf1a;
+  padding: 2px 8px;
+  font-weight: 600;
+}
+.card-percent-minus {
+  color: #e55656 !important;
+  background-color: #e556560d;
+}
+.card-percent-plus {
+  color: #2aa45f !important;
+}
+
+.card-hover {
+  padding: 0 24px;
+  pointer-events: auto;
+}
+.card-value-container {
+  padding: 0;
+  padding-left: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card:hover {
+  margin-top: 24px !important;
+  padding-top: 24px !important;
+  padding-bottom: 8px !important;
+  background-color: #fefaf6;
+  box-shadow: 0px 4px 4px #0000000a;
+}
+
+.card:hover > .card-hidden-part {
+  pointer-events: all;
+  opacity: 1;
+  box-shadow: 0px 4px 4px #0000000a;
+}
+.card:hover .card-description-container {
+  opacity: 1;
+  background-color: #fefaf6;
+}
+.card:hover .card-date {
+  opacity: 1;
+}
+.card-hidden-part {
+  pointer-events: none;
+  background-color: #fefaf6;
+  position: absolute;
+  /* bottom: -100px; */
+  padding: 0 24px;
+  z-index: 2;
+  min-height: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s, width 0s;
+}
+.card-description-container {
+  transition: all 0.3s, width 0s;
+  opacity: 0;
+  padding-bottom: 17px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, transparent, #ecd9cc, transparent) 1;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+.card-description {
+  font-family: Lora;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 12;
+  transition: all 0.3s;
+}
+.card-date {
+  transition: all 0.3s;
+  position: relative;
+  padding-top: 17px;
+  font-size: 12px;
+  justify-content: space-around;
+}
+.card-title {
+  font: italic normal 500 17px/22px Lora;
+  width: 88%;
+  min-height: 48px;
+}
+.card-subtitle {
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 24px !important;
+}
+.card-wrapper {
+  display: block;
+}
+.card-wrapper-phone {
+  display: none;
+}
+
+@media screen and (max-width: 899px) {
+  .card-wrapper {
+    display: none;
+  }
+  .card-wrapper-phone {
+    display: block;
+  }
+  .card {
+    margin: 8px 8px !important;
+    padding-top: 24px !important;
+    padding-bottom: 0 !important;
+    background-color: #fefaf6;
+    box-shadow: 0px 4px 4px #0000000a;
+    height: auto !important;
+  }
+  .card-hidden-part {
+    position: static !important;
+    min-height: auto !important;
+    opacity: 1;
+    background-color: transparent;
+    height: auto !important;
+  }
+  .card-description-container {
+    opacity: 1;
+    height: min-content !important;
+  }
+  .card-date {
+    position: static;
+  }
+  .card:hover {
+    margin: 8px 8px !important;
+    padding-top: 24px !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .card-title {
+    line-height: 1.2 !important;
+  }
+}

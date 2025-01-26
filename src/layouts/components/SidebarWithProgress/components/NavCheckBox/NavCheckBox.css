@@ -1,0 +1,67 @@
+.active .icon-progress-check {
+  display: inline;
+}
+.icon-progress-check {
+  display: none;
+}
+.checked .icon-progress-check {
+  display: none;
+}
+
+.active .icon-progress-outline {
+  display: none;
+}
+
+.icon-progress-outline {
+  display: inline;
+}
+.checked .icon-progress-outline {
+  display: none;
+}
+
+.nav-checkbox {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ecd9cc;
+}
+
+.icon-progress-checked {
+  display: none;
+}
+
+.checked .icon-progress-checked {
+  display: inline;
+}
+
+.active .nav-checkbox-label {
+  color: #ecd9cc;
+}
+.checked .nav-checkbox-label {
+  color: #ecd9cc;
+}
+@media screen and (max-width: 899px) {
+  .nav-checkbox > img {
+    height: 32px;
+  }
+  .nav-checkbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-checkbox-label {
+    margin-left: 0 !important;
+  }
+  .nav-checkbox-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 16px;
+    margin-bottom: -16px;
+  }
+  .sidebar-sign-up img {
+    top: 20px !important;
+    height: 24px;
+  }
+}

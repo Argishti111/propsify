@@ -1,0 +1,67 @@
+.continue-button-animated {
+  animation: animateContinue 500ms ease-in-out;
+}
+.continue-button {
+  transform: translateY(48px);
+}
+
+.sign-in-form {
+  top: -80px;
+}
+.sign-in-form-animated {
+  animation: animateSignInForm 500ms ease-in-out;
+}
+
+@keyframes animateSignInForm {
+  from {
+    top: -10px;
+  }
+  to {
+    top: -80px;
+  }
+}
+
+@keyframes animateContinue {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(48px);
+  }
+}
+
+/* from forgot-password */
+
+.from-forgot {
+  opacity: 0;
+  margin-right: -200px;
+  animation: animateFromForgot 500ms ease;
+}
+
+@keyframes animateFromForgot {
+  from {
+    opacity: 1;
+    margin-right: 0;
+  }
+  to {
+    opacity: 0;
+    margin-right: -200px;
+  }
+}
+.forgot-to-sign-in {
+  opacity: 1;
+  margin-right: 0;
+  animation: animateForgotSignIn 500ms ease;
+}
+
+@keyframes animateForgotSignIn {
+  from {
+    opacity: 0;
+    margin-right: -200px;
+  }
+  to {
+    opacity: 1;
+    margin-right: 0;
+  }
+}
+/* from forgot-password end*/

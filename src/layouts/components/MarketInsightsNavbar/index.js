@@ -1,0 +1,1 @@
+export { MarketInsightsNavbar } from "./MarketInsightsNavbar";

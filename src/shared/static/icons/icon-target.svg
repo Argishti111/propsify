@@ -1,0 +1,7 @@
+<svg id="icon-target" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Boundary" fill="#ecd9cc" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path id="default" d="M10,2a8,8,0,1,0,8,8,7.818,7.818,0,0,0-.488-2.712l-1.28,1.28A6.2,6.2,0,0,1,16.4,10,6.4,6.4,0,1,1,10,3.6a6.2,6.2,0,0,1,1.432.168L12.72,2.48A8.082,8.082,0,0,0,10,2m5.6,0L12.4,5.2V6.4L10.36,8.44A1.107,1.107,0,0,0,10,8.4,1.6,1.6,0,1,0,11.6,10a1.107,1.107,0,0,0-.04-.36L13.6,7.6h1.2L18,4.4H15.6V2M10,5.2A4.8,4.8,0,1,0,14.8,10H13.2A3.2,3.2,0,1,1,10,6.8Z" transform="translate(2 2)" fill="#ecd9cc"/>
+</svg>

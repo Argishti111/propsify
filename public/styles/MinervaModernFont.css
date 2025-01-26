@@ -1,0 +1,64 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4370420, 2022-02-16T22:40:16-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MinervaModern-Black by T-26
+ * URL: https://www.myfonts.com/fonts/t26/minerva-modern/black/
+ * 
+ * Webfont: MinervaModern-BlackItalic by T-26
+ * URL: https://www.myfonts.com/fonts/t26/minerva-modern/black-italic/
+ * 
+ * Webfont: MinervaModern-Bold by T-26
+ * URL: https://www.myfonts.com/fonts/t26/minerva-modern/bold/
+ * 
+ * Webfont: MinervaModern-BoldItalic by T-26
+ * URL: https://www.myfonts.com/fonts/t26/minerva-modern/bold-italic/
+ * 
+ * Webfont: MinervaModern-Italic by T-26
+ * URL: https://www.myfonts.com/fonts/t26/minerva-modern/italic/
+ * 
+ * Webfont: MinervaModern-Regular by T-26
+ * URL: https://www.myfonts.com/fonts/t26/minerva-modern/regular/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2002 by Gabor Kothay - Fontana. All rights reserved.
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+@font-face {
+  font-family: "MinervaModern-BlackItalic";
+  src: url("../fonts/MinervaModernBlackItalic/font.woff2") format("woff2"),
+    url("../fonts/MinervaModernBlackItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "MinervaModern-Bold";
+  src: url("../fonts/MinervaModernBold/font.woff2") format("woff2"),
+    url("../fonts/MinervaModernBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "MinervaModern-BoldItalic";
+  src: url("../fonts/MinervaModernBoldItalic/font.woff2") format("woff2"),
+    url("../fonts/MinervaModernBoldItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "MinervaModern-Black";
+  src: url("../fonts/MinervaModernBlack/font.woff2") format("woff2"),
+    url("../fonts/MinervaModernBlack/font.woff") format("woff");
+}
+@font-face {
+  font-family: "MinervaModern-Regular";
+  src: url("../fonts/MinervaModernRegular/font.woff2") format("woff2"),
+    url("../fonts/MinervaModernRegular/font.woff") format("woff");
+}
+@font-face {
+  font-family: "MinervaModern-Italic";
+  src: url("../fonts/MinervaModernItalic/font.woff2") format("woff2"),
+    url("../fonts/MinervaModernItalic/font.woff") format("woff");
+}

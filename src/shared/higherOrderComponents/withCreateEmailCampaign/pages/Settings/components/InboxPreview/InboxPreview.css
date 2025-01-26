@@ -1,0 +1,25 @@
+.inbox-preview-container {
+  position: relative;
+  background-color: white;
+  z-index: 1000000;
+  border: 1px solid #beb082;
+  border-radius: 1px;
+  flex-wrap: wrap;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 35px;
+  padding-bottom: 0px;
+  margin-bottom: 18px;
+}
+
+.inbox-preview-legend {
+  color: #beb082 !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  position: absolute;
+  padding: 0 4px;
+  top: -13px;
+  left: 8px;
+  background-color: #fff;
+}

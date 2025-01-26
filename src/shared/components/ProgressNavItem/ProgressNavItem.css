@@ -1,0 +1,51 @@
+.progress-nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -11px;
+}
+
+.progress-line {
+  position: relative;
+  top: -16px;
+  z-index: -1;
+  width: 120%;
+}
+.progress-nav-item > h6 {
+  color: #afafaf;
+}
+.progress-nav-item.checked > h6 {
+  color: #192231;
+}
+
+.progress-nav-item.previous {
+  fill: #666666 !important;
+}
+
+.progress-nav-item.previous > h6 {
+  color: #666666;
+}
+
+.progress-nav-item.checked:hover > h6 {
+  color: #beb082;
+}
+.progress-nav-item.checked:hover > svg > circle {
+  fill: #beb082 !important;
+}
+
+@media screen and (max-width: 520px) {
+  .progress-line,
+  .progress-nav-item {
+    display: none;
+  }
+  .progress-line.next,
+  .progress-line.current {
+    display: inline;
+  }
+  .progress-nav-item.next,
+  .progress-nav-item.before-current,
+  .progress-nav-item.current {
+    display: flex;
+  }
+}

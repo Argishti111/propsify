@@ -1,0 +1,12 @@
+.nav-item-active.nav-item-dark {
+  background-color: #faf5f2;
+}
+.nav-item-dark {
+  width: 100%;
+  margin: 8px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.nav-item-dark:hover {
+  background-color: #faf5f2;
+}

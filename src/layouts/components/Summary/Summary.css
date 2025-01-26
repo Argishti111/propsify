@@ -1,0 +1,129 @@
+.summary {
+  background-color: #fefaf6;
+  overflow-x: hidden;
+  width: 25%;
+  height: 100vh;
+  transition: width 300ms, opacity 300ms;
+  overflow-y: auto;
+}
+.summary-header {
+  margin-top: 30px;
+  margin-bottom: 140px;
+  transition: margin-bottom 500ms ease;
+}
+.summary-header-open {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.summary-title {
+  font-weight: 100;
+  text-orientation: sideways;
+}
+
+.summary-title-vertical {
+  display: none;
+  width: 26px;
+  text-align: center;
+}
+.summary-toggle {
+  cursor: pointer;
+  display: none !important;
+}
+
+.summary-subtitle {
+  color: gray;
+}
+.summary-market-conatiner {
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, transparent, #beb08266, transparent) 1;
+  justify-content: space-around;
+  border-right-width: 0;
+  border-left-width: 0;
+
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.summary-market-value {
+  font-size: 60px;
+  position: absolute;
+  padding: 4px 30px;
+  border-radius: 44%;
+  font-family: MinervaModern-Regular;
+  top: -42px;
+  background: #f5ece5;
+}
+
+.summary-market-title {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.likelihood-percent {
+  font-family: MinervaModern-Regular;
+  font-size: 48px;
+  margin-top: 30px;
+}
+.likelihood-label {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.likelihood-description {
+  margin: 0 60px !important;
+  font: normal normal 400 12px/20px Lora;
+  text-align: center;
+}
+.summary-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* TODO: Remove this */
+.score-under-development .summary-market-conatiner {
+  border-top-width: 0;
+  border-image: linear-gradient(to right, transparent, #cac9c8, transparent) 1;
+}
+
+.score-under-development .summary-market-value {
+  background: linear-gradient(to bottom, #f5f2f0, transparent);
+}
+
+.score-under-development .summary-market-value span {
+  background: linear-gradient(to bottom, #e0dfde, #faf7f3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* till this */
+/* change summary at 600px */
+@media screen and (max-width: 900px) {
+  .summary-toggle {
+    display: inline-block !important;
+  }
+
+  .summary-closed .summary-title-vertical {
+    display: inline-block !important;
+  }
+  .summary {
+    display: none;
+  }
+  .main {
+    width: calc(100vw - 90px) !important;
+  }
+
+  .summary-closed .summary-closed-item {
+    opacity: 0;
+    display: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+.nav-checkBox-divider {
+  border-left: 1px solid #ecd9cc;
+  border-bottom: 0;
+  padding: 32px 0;
+  margin: 8px 16px;
+}
+
+@media screen and (max-width: 899px) {
+  .nav-checkBox-divider {
+    border-left: 0 !important;
+    border-bottom: 1px solid #ecd9cc !important;
+    padding: 0 32px !important;
+    margin: 12px 12px !important;
+    position: absolute !important;
+  }
+}

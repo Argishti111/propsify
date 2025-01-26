@@ -1,0 +1,11 @@
+.card-disabled {
+  margin: 0 16px;
+  margin-top: 32px;
+  padding-top: 24px;
+  padding-bottom: 0;
+  box-shadow: none;
+}
+
+.card-disabled * {
+  color: #afafaf !important;
+}

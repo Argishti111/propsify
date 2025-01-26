@@ -1,0 +1,36 @@
+.doughnut-chart-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-height: 300px;
+  max-width: 300px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.doughnut-chart-container > canvas {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.doughnut-chart-container > .Target-root {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+@media screen and (max-width: 400px) {
+  .doughnut-chart-container {
+    transform: scale(0.8);
+  }
+}
+
+.doughnut-chart-title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  /* left: 1%; */
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  bottom: 30px;
+}

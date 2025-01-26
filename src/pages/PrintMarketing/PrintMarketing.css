@@ -1,0 +1,50 @@
+.tbody {
+  display: block;
+  overflow-y: auto;
+  /* max-height: calc(100vh - 246px); */
+}
+.print-marketing {
+  width: 80%;
+  margin: 0 12px;
+  opacity: 1;
+}
+.print-marketing .campaign-list {
+  height: 100% !important;
+  max-height: calc(100vh - 172px);
+  padding-bottom: 60px;
+}
+@media screen and (max-width: 1316px) {
+  .print-marketing .campaign-list {
+    max-height: calc(100vh - 230px);
+  }
+  .print-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 266px);
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .print-marketing .campaign-list {
+    max-height: calc(100vh - 220px);
+  }
+  .print-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 276px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .print-marketing .campaign-list {
+    max-height: calc(100vh - 234px);
+  }
+  .print-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 290px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .print-marketing .campaign-list {
+    max-height: calc(100vh - 224px);
+  }
+  .print-marketing .campaign-list .tbody {
+    max-height: calc(100vh - 280px);
+  }
+}

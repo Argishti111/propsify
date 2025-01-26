@@ -1,0 +1,47 @@
+.sidebar-with-progress {
+  width: 390px;
+  transition: width 300ms;
+}
+
+.sidebar-sign-up {
+}
+
+.sidebar-with-progress img {
+  transition: all 1000ms;
+}
+.sidebar-sign-up img {
+}
+
+.step-number {
+  text-align: unset !important;
+  padding-bottom: 48px !important;
+}
+.nav-checkbox-main-container {
+  margin-top: 0px !important;
+  padding-left: 88px !important;
+  pointer-events: none;
+}
+
+.sidebar-sign-up .nav-checkbox-main-container {
+  pointer-events: all;
+}
+
+@media screen and (max-width: 899px) {
+  .sidebar {
+    position: absolute;
+    width: 300px;
+    z-index: 5;
+  }
+  .step-number {
+    text-align: center !important;
+    padding-bottom: 0 !important;
+  }
+  .nav-checkbox-main-container {
+    margin-top: 16px !important;
+    padding-left: 0 !important;
+  }
+  .sidebar-closed.sidebar {
+    width: 60px !important;
+    position: static;
+  }
+}

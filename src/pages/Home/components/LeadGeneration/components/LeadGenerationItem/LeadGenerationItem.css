@@ -1,0 +1,46 @@
+.lead-gen-item:hover {
+  background-color: #fefaf6;
+  top: -16px;
+  height: 200px;
+}
+
+.lead-gen-item {
+  transition: top 300ms, height 300ms;
+  height: 166px;
+  top: 0;
+  position: relative;
+  width: 100%;
+  max-width: 328px !important;
+}
+
+.lead-gen-item > span {
+  opacity: 0;
+  width: 100%;
+  margin-top: 16px;
+  display: inline-block;
+  transition: opacity 300ms;
+  align-self: center;
+}
+
+.lead-gen-item:hover > span {
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .lead-gen-item > span {
+    opacity: 1;
+  }
+  .lead-gen-item {
+    display: flex;
+    background-color: #fefaf6;
+    top: -16px !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead-gen-item {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}

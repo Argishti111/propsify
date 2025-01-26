@@ -1,0 +1,30 @@
+.slide-modal {
+  position: fixed;
+  display: none;
+  top: 0;
+  right: -100vw;
+  z-index: 1300;
+  width: calc(80% - 2px);
+  height: 100vh;
+  background: white;
+
+  transition: right 200ms;
+}
+
+.slide-modal-open {
+  transition: right 500ms;
+  display: block;
+  right: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .slide-modal {
+    width: calc(100% - 70px);
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .slide-modal {
+    width: 100%;
+  }
+}

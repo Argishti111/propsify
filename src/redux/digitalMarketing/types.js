@@ -1,0 +1,10 @@
+export const CHANGE_DIGITAL_CAMPAIGN_FIELD = Symbol();
+export const SET_INITIAL = Symbol();
+export const SET_MODAL_LOADING = Symbol();
+export const SET_CAMPAIGN = Symbol();
+export const SET_FILTER = Symbol();
+export const FETCH_CAMPAIGN_COUNT = Symbol();
+export const SET_DEFAULT_KEYWORDS = Symbol();
+export const SET_BUYERS_KEYWORDS = Symbol();
+export const SET_SELLERS_KEYWORDS = Symbol();
+export const SET_DEFAULT_PLACE = Symbol();

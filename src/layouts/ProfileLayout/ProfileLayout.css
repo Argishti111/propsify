@@ -1,0 +1,13 @@
+.profile-container {
+  opacity: 1;
+  animation: appear 300;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

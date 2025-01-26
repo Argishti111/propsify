@@ -1,0 +1,1 @@
+export { TinyButton } from "./TinyButton";

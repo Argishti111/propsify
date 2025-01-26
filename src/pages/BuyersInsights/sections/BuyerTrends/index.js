@@ -1,0 +1,1 @@
+export { BuyerTrends } from "./BuyerTrends";

@@ -1,0 +1,13 @@
+.sign-up-form {
+  top: 0;
+  animation: animateSignUpForm 500ms ease-in-out;
+}
+
+@keyframes animateSignUpForm {
+  from {
+    top: -30px;
+  }
+  to {
+    top: 0;
+  }
+}

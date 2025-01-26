@@ -1,0 +1,1 @@
+export { NewTemplate } from "./NewTemplate";

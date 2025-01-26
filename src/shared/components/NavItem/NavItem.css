@@ -1,0 +1,30 @@
+.top-nav-item {
+  cursor: pointer;
+  padding: 9px 16px;
+  text-decoration: none;
+  color: #192231;
+  letter-spacing: 1.2px;
+  height: 36px;
+}
+
+.top-nav-item.active {
+  background-color: #ecd9cc4d;
+}
+
+.top-nav-item.disabled {
+  background-color: #afafaf33;
+}
+
+.top-nav-item-border-right {
+  border-right: 2px solid #ecd9cc;
+}
+
+.top-nav-item-border-left {
+  border-left: 2px solid #ecd9cc;
+}
+
+@media screen and (max-width: 600px) {
+  .top-nav-item {
+    padding: 9px 8px;
+  }
+}

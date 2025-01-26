@@ -1,0 +1,91 @@
+.select-btn {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  background: none;
+  font-family: Lora;
+  font-size: 17px;
+  width: 100%;
+  text-overflow: ellipsis;
+  box-sizing: content-box;
+  display: flex;
+  border: 1px solid #beb08280;
+  height: 17px;
+  padding: 6px 12px;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select {
+  width: 200px;
+  margin-right: 34px;
+  height: 31px;
+  position: relative;
+  display: inline-block;
+}
+
+.select-options {
+  overflow-x: hidden;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 4;
+  box-shadow: 0px 6px 8px #00000066;
+  background-color: white;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.select-options a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  /* width: 225px; */
+  text-overflow: ellipsis;
+  /* overflow: hidden; */
+  font-family: Lora;
+  background-color: white;
+  padding: 9px 12px;
+}
+
+.select-options a:hover {
+  background-color: #f0ece1;
+}
+
+.selected-item-label {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: Lora;
+  font-weight: 400;
+  color: #192231;
+}
+.select-options a.disabled {
+  color: #afafaf;
+  pointer-events: none;
+}
+.select-fullWidth {
+  row-gap: 4px;
+}
+@media screen and (max-width: 899px) {
+  .select-fullWidth {
+    row-gap: 0;
+  }
+  .select-fullWidth .select {
+    /* display: flex; */
+    row-gap: 2px;
+    width: calc(100% - 28px);
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}

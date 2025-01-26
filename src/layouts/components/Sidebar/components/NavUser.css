@@ -1,0 +1,55 @@
+.no-user-image {
+  background-color: #ecd9cc;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1199px) {
+  .sidebar-closed .no-user-image {
+    margin-right: 0;
+  }
+}
+.nav-user {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.nav-user-image {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.nav-item-name {
+  transition: all 400ms;
+
+  transition-delay: 50ms;
+  opacity: 1;
+}
+.nav-user-name {
+  transition: all 400ms;
+  transition-delay: 180ms;
+  opacity: 1;
+  color: var(--nav-text-color);
+}
+
+.nav-user-main-container {
+  display: flex;
+  flex-direction: row;
+  height: 3.5rem;
+
+  width: 100%;
+  align-items: center;
+  padding: 16px 10px;
+}
+.nav-user-container {
+  padding-right: 10px;
+}
+
+.nav-user-main-container:hover {
+  background: rgba(252, 245, 232, 0.3);
+}
+.nav-user-main-container .nav-collapse-arrow {
+  height: 100%;
+}

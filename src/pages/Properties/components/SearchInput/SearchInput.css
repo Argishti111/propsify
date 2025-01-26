@@ -1,0 +1,12 @@
+.place-text {
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.place-text:hover {
+  position: relative !important;
+  text-overflow: unset !important;
+  /* background-color: inherit !important; */
+  z-index: 100;
+}

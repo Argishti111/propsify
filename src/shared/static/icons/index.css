@@ -1,0 +1,11 @@
+.my-mui-icon {
+  color: #beb082;
+  cursor: pointer;
+}
+.my-mui-icon:hover {
+  color: #192231;
+}
+
+.icon-parent:hover .my-mui-icon {
+  color: #192231;
+}

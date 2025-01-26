@@ -1,0 +1,10 @@
+.inbox-preview-item {
+  background-color: #ecd9cc4d;
+  padding: 8px !important;
+}
+
+.inbox-preview-item .line {
+  height: 4px;
+  width: 100%;
+  background-color: #ecd9cc;
+}

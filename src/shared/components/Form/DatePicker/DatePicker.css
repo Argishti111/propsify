@@ -1,0 +1,22 @@
+button[aria-label="Previous month"] ~ div {
+  display: none;
+}
+
+.PrivatePickersYear-yearButton.Mui-selected {
+  background-color: #ecd9cc !important;
+  color: white !important;
+}
+.MuiInputLabel-root.Mui-focused {
+  color: #beb082 !important;
+}
+
+.MuiInputLabel-root.Mui-focused.Mui-error {
+  color: #d32f2f !important;
+}
+.date-picker-dialog {
+  right: -52px !important;
+}
+
+.Mui-error ~ .MuiFormHelperText-root {
+  color: #d32f2f !important;
+}

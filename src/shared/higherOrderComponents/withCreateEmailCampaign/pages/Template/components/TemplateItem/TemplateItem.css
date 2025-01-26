@@ -1,0 +1,12 @@
+.template-item {
+  position: relative;
+}
+.template-item::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 162px;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(transparent 10%, white 90%);
+}

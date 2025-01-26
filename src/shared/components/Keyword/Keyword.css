@@ -1,0 +1,7 @@
+.keyword {
+  border-radius: 16px;
+  border: 1px solid #beb08299;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}

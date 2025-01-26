@@ -1,0 +1,133 @@
+.tooltip {
+  cursor: pointer;
+  position: relative;
+  /* display: inline; */
+  height: 18px;
+  width: auto;
+}
+.tooltip-fixed {
+  position: fixed !important;
+}
+
+.tooltip-icon {
+  display: inline;
+}
+.tooltip-icon-hovered {
+  display: none !important;
+}
+@media screen and (max-width: 600px) {
+  .tooltip-text {
+    max-width: 204px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tooltip-text {
+    min-width: 216px !important;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .tooltip-text {
+    max-width: 166px !important;
+    min-width: 166px !important;
+  }
+}
+
+.tooltip-text {
+  white-space: pre-line;
+  font-size: 15px;
+  font-family: Lora;
+  background-color: #f5ece5;
+  color: #192231;
+  padding: 5px 0;
+  z-index: 3;
+  padding: 24px 16px;
+  min-width: 204px;
+  width: auto;
+  max-width: 204px;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  z-index: 3000;
+  /* bottom: 92%; */
+  top: -8px;
+}
+/**  bottom ***/
+div[data-popper-placement="bottom-end"] .tooltip-text::after {
+  right: 2px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #f5ece5 transparent;
+}
+div[data-popper-placement="bottom-end"] .tooltip-text {
+  margin-right: -8px;
+  margin-top: 8px;
+}
+/*** bottom  **/
+/*** left */
+
+div[data-popper-placement="bottom-start"] .tooltip-text::after {
+  left: 1px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #f5ece5 transparent;
+}
+div[data-popper-placement="bottom-start"] .tooltip-text {
+  margin-left: -8px;
+  margin-top: 8px;
+}
+
+/*** */
+
+/*** right */
+
+div[data-popper-placement="right-start"] .tooltip-text::after {
+  left: -8px;
+  top: 2px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent #f5ece5 transparent transparent;
+}
+div[data-popper-placement="right-start"] .tooltip-text {
+  margin-left: 8px;
+  margin-top: -4px;
+}
+
+/*** */
+
+/*** top */
+div[data-popper-placement="top-end"] .tooltip-text::after {
+  right: 2px;
+  top: auto;
+  bottom: -8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #f5ece5 transparent transparent transparent;
+}
+div[data-popper-placement="top-end"] .tooltip-text {
+  margin-bottom: 8px;
+  /* right: -55%; */
+}
+/*** */
+
+.tooltip > .tooltip-text {
+  display: none;
+}
+
+.tooltip > .tooltip-text::after {
+  content: "";
+}
+
+.tooltip:hover > .tooltip-text {
+  display: block;
+}
+
+.tooltip:hover > .tooltip-icon {
+  display: none;
+}
+.tooltip:hover > .tooltip-icon-hovered {
+  display: inline !important;
+}

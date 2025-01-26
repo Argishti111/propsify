@@ -1,0 +1,1 @@
+export { PasswordRecover } from "./PasswordRecover";

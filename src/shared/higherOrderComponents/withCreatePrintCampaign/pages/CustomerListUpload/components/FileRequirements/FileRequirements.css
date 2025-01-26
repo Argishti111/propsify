@@ -1,0 +1,15 @@
+.file-requirements-container {
+  background-color: #fefaf6;
+  margin-top: 45px;
+  padding: 15px;
+  transition: all 500ms;
+}
+.file-requirements {
+  font-family: Lora;
+  font-size: 0.938rem;
+  color: #192231cc;
+  margin-top: 10px;
+}
+.file-requirements > li {
+  margin-left: 18px;
+}

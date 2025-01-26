@@ -1,0 +1,122 @@
+.chart-label {
+  transform: rotate(-60deg);
+  font: italic normal 500 12px/20px Lora;
+  font-weight: 500 !important;
+}
+
+.Overlay-popper {
+  z-index: 1301 !important;
+}
+.chart-title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  left: 1%;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  bottom: -10vh;
+}
+
+.chart-container > .Target-root {
+  height: calc(100vh - 250px) !important;
+}
+.chart-container > canvas {
+  height: calc(100vh - 250px) !important;
+}
+.chart-container {
+  overflow-x: hidden;
+  max-height: calc(100vh - 250px);
+}
+
+.chart {
+  font-family: Lora !important;
+  font-style: italic;
+  font-size: 12px !important;
+  font-weight: 500;
+}
+
+.tooltip-dashed-line {
+  left: 8px;
+  stroke-dasharray: 6 20;
+  position: fixed;
+  height: inherit;
+  border-right: 2px dashed #beb082;
+  z-index: -1;
+}
+
+.chart-tooltip {
+  position: relative;
+  left: -9px;
+  top: 2px;
+  z-index: 1301 !important;
+  display: none;
+}
+.chart-tooltip-container {
+  position: absolute;
+}
+.tooltip-circle {
+  position: absolute;
+  /* top: 23px; */
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 3px solid #beb082;
+  background-color: white;
+}
+.chart-tooltip-text[data-end="true"].chart-tooltip-text::after {
+  top: 0;
+  right: 0;
+  left: auto;
+  transform: translate(31px, 3px);
+}
+.chart-tooltip-text::after {
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+
+  border: 4px solid #beb082;
+  background-color: white;
+  transform: translate(-29px, 3px);
+}
+
+.chart-tooltip-text::after {
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+
+  border: 4px solid #beb082;
+  background-color: white;
+  transform: translate(-29px, 3px);
+}
+
+.chart-tooltip-text {
+  word-break: break-all;
+  top: -3px;
+  position: absolute;
+  border-radius: 12px;
+  font-family: Lora;
+  font-size: 15;
+  font-weight: bold;
+  left: -10px;
+  padding: 0px 2px !important;
+}
+
+.Arrow-arrow-top {
+  display: none;
+}
+
+.xAxes {
+  background-color: red !important;
+}

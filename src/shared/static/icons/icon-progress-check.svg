@@ -1,0 +1,8 @@
+<svg id="icon-check" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="outline" fill="#192231" stroke="#ecd9cc" stroke-width="1">
+    <circle cx="16" cy="16" r="16" stroke="none"/>
+    <circle cx="16" cy="16" r="15.5" fill="none"/>
+  </g>
+  <rect id="Boundary" width="24" height="24" transform="translate(4 4)" fill="none"/>
+  <path id="_Color" data-name=" ↳Color" d="M5.727,11.075l-4.3-4.388L0,8.149,5.727,14,18,1.463,16.568,0Z" transform="translate(7 9)" fill="#ecd9cc"/>
+</svg>

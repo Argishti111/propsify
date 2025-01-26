@@ -1,0 +1,17 @@
+.campaign-clone {
+  opacity: 0;
+  position: relative;
+  bottom: -56px;
+  animation: cloneAppearing 500ms ease;
+}
+
+@keyframes cloneAppearing {
+  from {
+    opacity: 0;
+    bottom: -56px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}

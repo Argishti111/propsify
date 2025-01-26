@@ -1,0 +1,42 @@
+.input-radio {
+  display: inline;
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.input-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.input-radio-label {
+  position: relative;
+  font: normal normal normal 17px/24px Lora;
+}
+
+.radio-checkmark:after {
+  top: 0px;
+  left: -16px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 2px solid #beb082;
+
+  content: "";
+  position: absolute;
+}
+
+.input-radio > input:checked + .radio-checkmark::before {
+  top: 4px;
+  left: -12px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #beb082;
+  border: 2px solid #beb082;
+
+  content: "";
+  position: absolute;
+}

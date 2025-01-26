@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '%REACT_APP_GTM_AUTH%'; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', '%REACT_APP_GTM_ID%');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    window.gtag = gtag;
+    gtag("js", new Date());
+  </script>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="googlebot" content="noindex" />
+  <link href="%PUBLIC_URL%/styles/MinervaModernFont.css" as="style" rel="preload" onload="this.rel='stylesheet'" />
+  <link href="%PUBLIC_URL%/styles/Loading.css" as="style" rel="preload" onload="this.rel='stylesheet'" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="preload" as="font" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Propsify" />
+
+  <link rel="manifest" crossorigin="use-credentials" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>Propsify</title>
+
+</head>
+<style>
+  body {
+    transition: opacity 0ms;
+  }
+</style>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%REACT_APP_GTM_ID%%REACT_APP_GTM_AUTH%" height="0"
+      width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <noscript style="font-family: MinervaModern-Regular">You need to enable JavaScript to run this app.</noscript>
+  <div style="font-family: MinervaModern-Bold"></div>
+
+  <div style="font-family: Lora"></div>
+
+  <div id="main-loading" style="top: -98px; bottom: 0" class="loadingio-spinner-ellipsis-mlgo8jxeew loading">
+    <div class="ldio-xbw27ec6ewc">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <script>
+    function removeLoading() {
+      let root = document.getElementById("root");
+      let mainLoading = document.getElementById("main-loading");
+      mainLoading.style.display = "none";
+      mainLoading.classList.remove(["loading"]);
+      root.style.opacity = 1;
+    }
+
+    if (!!window.safari) {
+      removeLoading();
+    } else {
+      function loadingEventHandler(e) {
+        let root = document.getElementById("root");
+        let mainLoading = document.getElementById("main-loading");
+        mainLoading.style.display = "inline-block";
+        root.style.opacity = 0;
+        document.fonts.removeEventListener("loading", loadingEventHandler);
+      }
+      document.fonts.addEventListener("loading", loadingEventHandler);
+
+      function loadingDoneEventHandler(e) {
+        removeLoading();
+        document.fonts.removeEventListener(
+          "loading",
+          loadingDoneEventHandler
+        );
+      }
+      document.fonts.addEventListener("loadingdone", loadingDoneEventHandler);
+    }
+  </script>
+
+  <div id="root"></div>
+  <div id="modal-portal"></div>
+</body>
+
+</html>

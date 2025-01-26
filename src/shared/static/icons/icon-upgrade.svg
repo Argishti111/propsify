@@ -1,0 +1,8 @@
+<svg id="icon-upgrade" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="icon-area" width="24" height="24" fill="none"/>
+  <g id="default" transform="translate(5.646 4)">
+    <path id="Path_5" data-name="Path 5" d="M298.937,71.993h-.8a.8.8,0,0,0,0,1.6h.8a.8.8,0,0,0,0-1.6Z" transform="translate(-292.137 -57.593)" fill="#beb082"/>
+    <path id="Path_6" data-name="Path 6" d="M300.137,67.993h-4a.8.8,0,1,0,0,1.6h4a.8.8,0,0,0,0-1.6Z" transform="translate(-291.737 -56.795)" fill="#beb082"/>
+    <path id="Path_7" data-name="Path 7" d="M303.356,59l-5.6-4.8a.8.8,0,0,0-1.042,0l-5.6,4.8a.8.8,0,0,0,.521,1.407h2.8V62.8a.8.8,0,0,0,.8.8h4a.8.8,0,0,0,.8-.8v-2.39h2.8A.8.8,0,0,0,303.356,59Zm-4.119-.193a.8.8,0,0,0-.8.8V62h-2.4v-2.39a.8.8,0,0,0-.8-.8H293.8l3.436-2.946,3.436,2.946Z" transform="translate(-290.837 -54.006)" fill="#beb082"/>
+  </g>
+</svg>

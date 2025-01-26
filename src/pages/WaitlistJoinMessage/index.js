@@ -1,0 +1,1 @@
+export { WaitlistJoinMessage } from "./WaitlistJoinMessage";

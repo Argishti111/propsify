@@ -1,0 +1,65 @@
+.ad-review-mobile-container {
+  margin-top: 20px;
+  border-top: 16px solid #f2f2f2;
+  border-left: 8px solid #f2f2f2;
+  border-right: 8px solid #f2f2f2;
+  -webkit-border-top-right-radius: 24px;
+  -moz-border-top-right-radius: 24px;
+  border-top-right-radius: 24px;
+  -webkit-border-top-left-radius: 24px;
+  -moz-border-top-left-radius: 24px;
+  border-top-left-radius: 24px;
+  max-width: 280px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.ad-review-mobile {
+  padding: 8px 8px 0 8px;
+}
+
+.ad-review-mobile-search {
+  border-radius: 32px;
+  margin-bottom: 8px;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  height: 24px;
+  position: relative;
+}
+
+.ad-review-mobile-search::after {
+  content: "";
+  width: 55%;
+  height: 40%;
+  border-radius: 32px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 16px;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+.ad-review-mobile-search-icon {
+  background: #e3e3e3;
+  float: right;
+  position: relative;
+  /* top: 1px; */
+  display: block;
+  height: 23px !important;
+  padding: 4px 0;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.ad-review-mobile-content {
+  border: 1px solid #e3e3e3;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-top-right-radius: 16px;
+  border-top-right-radius: 16px;
+  -webkit-border-top-left-radius: 16px;
+  -moz-border-top-left-radius: 16px;
+  border-top-left-radius: 16px;
+  padding: 8px;
+  padding-top: 12px;
+}

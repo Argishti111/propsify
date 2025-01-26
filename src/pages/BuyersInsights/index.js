@@ -1,0 +1,1 @@
+export { BuyersInsights } from "./BuyersInsights";

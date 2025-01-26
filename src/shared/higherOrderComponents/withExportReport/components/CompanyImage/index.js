@@ -1,0 +1,1 @@
+export { CompanyImage } from "./CompanyImage";
